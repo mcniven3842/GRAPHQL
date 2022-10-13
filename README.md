@@ -22,22 +22,18 @@ The files inside the folder are:
 
 # Implementation
 Clone this project
-* [git clone https://github.com/mcniven3842/GRAPHQL.git]
-* [cd ue-ad-a1-rest]
-* [pip -r requirements.txt]
+* git clone https://github.com/mcniven3842/GRAPHQL.git
+* cd ue-ad-a1-rest
+* pip -r requirements.txt
 
 Run a specific microservice (movie for example)
-*[cd movie]
-*[python movie.py]
+* cd movie
+* python movie.py
 
-# The movie service will initialize in the <http://localhost:3200>
-```
-## :checkered_flag: Containerizing the application ##
-```bash
-# Creating the containers
-$ cd movie
-$ docker build .
-
-# Running the containers
-$ cd UE-AD-A1-REST
-$ docker-compose up
+The movie service will initialize in the <http://localhost:3200>
+Creating the containers
+* cd movie
+* docker build .
+Running the containers
+* cd UE-AD-A1-REST
+* docker-compose up
