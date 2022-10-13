@@ -1,4 +1,4 @@
-# TP2 GRAPHL
+# TP3 GRAPHL
 
 ## Info
 The project consists of 4 services, the services are:
