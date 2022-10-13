@@ -20,20 +20,15 @@ The files inside the folder are:
 * [Python]: Version 3.10 
 * [Docker]
 
-# Clone this project
-$ git clone https://github.com/MohammedAymane/UE-AD-A1-REST
+# Implementation
+Clone this project
+* [git clone https://github.com/mcniven3842/GRAPHQL.git]
+* [cd ue-ad-a1-rest]
+* [pip -r requirements.txt]
 
-# Access
-$ cd ue-ad-a1-rest
-
-# Install dependencies
-$ pip -r requirements.txt
-
-# Run a specific microservice (movie for example)
-$ cd movie
-$ python movie.py
-$ pymon movie.py (in developpment mode)
-
+Run a specific microservice (movie for example)
+*[cd movie]
+*[python movie.py]
 
 # The movie service will initialize in the <http://localhost:3200>
 ```
